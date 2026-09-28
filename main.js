@@ -51,7 +51,7 @@
       const target = document.querySelector(href);
       if(target){
         e.preventDefault();
-        target.scrollIntoView({behavior:'smooth',block:'start'});
+        target.scrollIntoView({behavior:'auto',block:'start'});
         // close mobile nav
         if(window.innerWidth < 900 && navList) {navList.style.display = 'none'; hamburger.setAttribute('aria-expanded','false')}
       }
