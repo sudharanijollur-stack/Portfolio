@@ -52,7 +52,7 @@ body{
 
 /* Hero */
 .hero{position:relative;padding:64px 0}
-.hero-inner{display:grid;grid-template-columns:1fr 320px;gap:32px;align-items:center}
+.hero-inner{display:grid;grid-template-columns:1fr 300px;gap:24px;align-items:center}
 .eyebrow{color:var(--accent-2);font-weight:600}
 h1{font-family:'Roboto Slab', serif;font-size:2.4rem;margin:8px 0}
 .subtitle{color:var(--muted);font-weight:500;margin:6px 0}
@@ -65,7 +65,7 @@ h1{font-family:'Roboto Slab', serif;font-size:2.4rem;margin:8px 0}
 
 .hero-aside{justify-self:end}
 .profile-card{background:var(--card);padding:18px;border-radius:30px;box-shadow:var(--shadow);display:flex;gap:12px;align-items:center}
-.profile-photo{width:280px;height:280px;border: radius 80px;px;object-fit:cover}
+.profile-photo{width:220px;height:220px;border-radius 80px;px;object-fit:cover}
 .profile-meta h3{margin:0}
 .profile-meta p{margin:2px 0;color:var(--muted)}
 .download-resume{display:inline-block;margin-top:8px;color:var(--accent);text-decoration:none}
