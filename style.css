@@ -182,5 +182,21 @@ img {
 h1, h2, p {
   position: relative;
   z-index: 2;
+}/* Profile photo overlapping fix */
+.hero-inner{
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 30px !important;
+}
+
+.hero-image, .profile-img, .hero img {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+  z-index: 1 !important;
+  width: 180px !important;
+  height: 180px !important;
+  object-fit: cover !important;
 }
 
