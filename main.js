@@ -42,12 +42,7 @@
       navList.style.zIndex = '60';
     });
   }
-
-  // Smooth scroll and active nav
-document.querySelectorAll('a[href^="#"]')... 
-... 
-});
-  const sections = document.querySelectorAll('section');
+ const sections = document.querySelectorAll('section');
   function onScroll(){
     const scrollPos = window.scrollY + (window.innerHeight/3);
     sections.forEach(sec=>{
