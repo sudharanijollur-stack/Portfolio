@@ -169,4 +169,18 @@ html, body {
 
 .socials a:hover {
   color: #ffffff;
+}/* Fix profile overlapping */
+img {
+  position: relative !important;
+  z-index: 1;
+  display: block;
+  margin: 20px auto;
+  max-width: 200px;
+  border-radius: 50%;
 }
+
+h1, h2, p {
+  position: relative;
+  z-index: 2;
+}
+
