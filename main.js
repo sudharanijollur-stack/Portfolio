@@ -44,20 +44,9 @@
   }
 
   // Smooth scroll and active nav
-  document.querySelectorAll('a[href^="#"]').forEach(anchor=>{
-    anchor.addEventListener('click', function(e){
-      const href = this.getAttribute('href');
-      if(href === '#') return;
-      const target = document.querySelector(href);
-      if(target){
-        e.preventDefault();
-        target.scrollIntoView({behavior:'auto',block:'start'});
-        // close mobile nav
-        if(window.innerWidth < 900 && navList) {navList.style.display = 'none'; hamburger.setAttribute('aria-expanded','false')}
-      }
-    });
-  });
-
+document.querySelectorAll('a[href^="#"]')... 
+... 
+});
   const sections = document.querySelectorAll('section');
   function onScroll(){
     const scrollPos = window.scrollY + (window.innerHeight/3);
